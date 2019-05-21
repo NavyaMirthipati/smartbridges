@@ -22,13 +22,5 @@ void loop() {
  distance=duration*0.034/2;
  Serial.print("Distance:");
  Serial.println(distance);
- if(distance > 60)
- {
-  digitalWrite(2,HIGH);
- }
- else
- {
-  digitalWrite(2,LOW);
- }
- 
+
 }
